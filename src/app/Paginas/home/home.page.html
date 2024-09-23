@@ -1,0 +1,33 @@
+
+<p>asdas</p>
+
+<h2 class="" style="margin-top: 20px;">Hola asda</h2>
+
+@for(animal of animales;track $index){
+<ion-card class="cartita">
+  <img alt="Silhouette of mountains" [src]="animal.imagen" />
+  <ion-card-header>
+    <ion-card-title style="text-align: center; color: rgb(255, 157, 0)"
+      >{{animal.nombre_comun}}</ion-card-title
+    >
+    <ion-card-subtitle style="text-align: center; color: rgb(83, 141, 255)"
+      >{{animal.nombre_cientifico}}</ion-card-subtitle
+    >
+  </ion-card-header>
+
+  <ion-card-content style="text-align: center; color: white">
+    nose
+  </ion-card-content>
+
+  <hr style="background-color: rgba(240, 248, 255, 0.168)" />
+
+  <ion-row>
+    <ion-col width-50 style="text-align: center">
+      <ion-button>Like</ion-button>
+
+      <ion-button color="danger" round outline> Dislike</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+
+}

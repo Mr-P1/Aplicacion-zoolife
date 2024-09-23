@@ -1,0 +1,7 @@
+{
+  "name": "app-zoolife",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
